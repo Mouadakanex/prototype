@@ -7,6 +7,9 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
 }
+body{
+    height: 100vh;
+}
 header{
     height: 10vh;
     background: black;
@@ -37,8 +40,16 @@ nav ul {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 100px 0 auto;
+    margin:  0 auto;
     line-height: 1.8;
+    background: antiquewhite;
+}
+.divx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
 }
 .btn{
     margin: 20px;
@@ -55,33 +66,64 @@ nav ul {
 }
 .footer{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 100px;
+    padding: 40px;
     text-align: center;
     flex-direction: column;
-    gap: 40px;
+    gap: 20px;
 }
 .javascript{
     background: yellow;
-    width: 200px;
-    height: 100px;
+    width: 100%;
+    max-width: 2000px;
+    min-height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.javascript:hover{
+    transform: translateY(-5px);
+    transform: rotateX(150deg);
+    transform: rotateY(150deg);
 }
 .html{
     background: orange;
-    width: 200px;
-    height: 100px;
+    width: 100%;
+    max-width: 2000px;
+    min-height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.html:hover{
+    transform: translateY(-5px);
+    transform: rotateX(150deg);
+    transform: rotateY(150deg);
+    transform: translateX(365deg);
 }
 .css{
     background: blue;
-    width: 200px;
-    height: 100px;
+    width: 100%;
+    max-width: 2000px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.css:hover{
+    transform: translateY(-5px);
+    transform: rotateX(150deg);
+    transform: rotateY(150deg);
+}
+.enddiv{
+    background: black;
+    height: 15vh;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
