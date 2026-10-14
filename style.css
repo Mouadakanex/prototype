@@ -122,9 +122,28 @@ nav ul {
 }
 .enddiv{
     background: black;
-    height: 15vh;
+    height: 10vh;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.projects h1{
+    text-align: center;
+    color: blue;
+}
+.projects-img{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.firstimg{
+    width: 600px;
+    border-radius: 30px;
+    transition: all 0.5s;
+}
+.firstimg:hover{
+    transform: translateY(-5px);
 }
